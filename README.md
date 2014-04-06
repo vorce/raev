@@ -13,9 +13,9 @@ Now you can use raev.
 
 ### Examples
 
-   (raev.core/get-palette-random) ;; Returns one random Palette
-   (raev.core/get-palettes-with {raev.core/PARAM_HEX "FF0000"}) ;; Get 20 Palettes with red in them
-   (raev.core/colourlovers-json (str "api/palettes/" raev.core/MODIFIER_NEW) {raev.core/PARAM_KEYWORDS "space"}) ;; Get a raw reply of new palettes matching the keyword space
+    (raev.core/get-palette-random) ;; Returns one random Palette
+    (raev.core/get-palettes-with {raev.core/PARAM_HEX "FF0000"}) ;; Get 20 Palettes with red in them
+    (raev.core/colourlovers-json (str "api/palettes/" raev.core/MODIFIER_NEW) {raev.core/PARAM_KEYWORDS "space"}) ;; Get a raw reply of new palettes matching the keyword space
 
 #### Full Quil example
 
