@@ -1,4 +1,4 @@
-# raev
+# Raev
 
 Raev - a colourlovers (http://www.colourlovers.com) API wrapper/interface for Clojure
 
@@ -17,10 +17,13 @@ Now you can use raev.
    (raev.core/get-palettes-with {raev.core/PARAM_HEX "FF0000"}) ;; Get 20 Palettes with red in them
    (raev.core/colourlovers-json (str "api/palettes/" raev.core/MODIFIER_NEW) {raev.core/PARAM_KEYWORDS "space"}) ;; Get a raw reply of new palettes matching the keyword space
 
-etc
+#### Full Quil example
+
+It's a bit messy since I just wanted to hack something together, but here's a real example that uses Raev
+https://gist.github.com/vorce/10004442
 
 ## License
 
-Copyright © 2013 Joel Carlbark
+Copyright © 201 - 2014 Joel Carlbark
 
 Distributed under the Eclipse Public License, the same as Clojure.
